@@ -35,33 +35,33 @@ Al desarrollar las actividades del curso, se busca que el estudiante sea capaz d
 
 | Semana | Tema | Acceso |
 |:--:|---|---|
-| 1 | Introducción a los sistemas electrónicos de medida: sensor–microcontrolador | [Lección 1](Semana_01/Leccion_01.html) |
-| 2A | Introducción a Python para ingeniería | [Lección 2A](Semana_02/Leccion_02.html) |
-| 2B | Adquisición de datos: comunicación serial y registro | [Lección 2B](Semana_02/Leccion_02B.html) |
-| 3 | ESP32: programación y entradas/salidas digitales | [Lección 3](Semana_03/Leccion_03.html) |
-| 4 | ESP32: conversión analógico-digital y medición | [Lección 4](Semana_04/Leccion_04.html) |
-| 5 | ESP32 y adquisición de datos con Python | [Lección 5](Semana_05/Leccion_05.html) |
-| 6 | Etapa de sensado | [Lección 6](Semana_06/Leccion_06.html) |
-| 7 | Desarrollo de la cadena de señal | [Lección 7](Semana_07/Leccion_07.html) |
-| 8 | Práctica 2: termómetro Pt2000 con divisor de voltaje | [Lección 8](Semana_08/Leccion_08.html) |
-| 9 | Práctica 3: termómetro Pt2000 con puente de Wheatstone | [Lección 9](Semana_09/Leccion_09.html) |
-| 10 | Proyecto 1: termostato digital con TMP36 y ESP32 | [Lección 10](Semana_10/Leccion_10.html) |
+| 1 | Introducción a los sistemas electrónicos de medida: sensor–microcontrolador | [Lección 1](https://ernestosifuentes.github.io/topicos-ie/Semana_01/Leccion_01.html) |
+| 2A | Introducción a Python para ingeniería | [Lección 2A](https://ernestosifuentes.github.io/topicos-ie/Semana_02/Leccion_02.html) |
+| 2B | Adquisición de datos: comunicación serial y registro | [Lección 2B](https://ernestosifuentes.github.io/topicos-ie/Semana_02/Leccion_02B.html) |
+| 3 | ESP32: programación y entradas/salidas digitales | [Lección 3](https://ernestosifuentes.github.io/topicos-ie/Semana_03/Leccion_03.html) |
+| 4 | ESP32: conversión analógico-digital y medición | [Lección 4](https://ernestosifuentes.github.io/topicos-ie/Semana_04/Leccion_04.html) |
+| 5 | ESP32 y adquisición de datos con Python | [Lección 5](https://ernestosifuentes.github.io/topicos-ie/Semana_05/Leccion_05.html) |
+| 6 | Etapa de sensado | [Lección 6](https://ernestosifuentes.github.io/topicos-ie/Semana_06/Leccion_06.html) |
+| 7 | Desarrollo de la cadena de señal | [Lección 7](https://ernestosifuentes.github.io/topicos-ie/Semana_07/Leccion_07.html) |
+| 8 | Práctica 2: termómetro Pt2000 con divisor de voltaje | [Lección 8](https://ernestosifuentes.github.io/topicos-ie/Semana_08/Leccion_08.html) |
+| 9 | Práctica 3: termómetro Pt2000 con puente de Wheatstone | [Lección 9](https://ernestosifuentes.github.io/topicos-ie/Semana_09/Leccion_09.html) |
+| 10 | Proyecto 1: termostato digital con TMP36 y ESP32 | [Lección 10](https://ernestosifuentes.github.io/topicos-ie/Semana_10/Leccion_10.html) |
 
 ### Unidad II. Supervisión industrial, SCADA e IoT (semanas 11–12)
 
 | Semana | Tema | Acceso |
 |:--:|---|---|
-| 11 | Supervisión industrial: fundamentos SCADA e IoT con ESP32 | [Lección 11](Semana_11/Leccion_11.html) |
-| 12 | Proyecto 2: monitor de aceleración con supervisión local/IoT | [Lección 12](Semana_12/Leccion_12.html) |
+| 11 | Supervisión industrial: fundamentos SCADA e IoT con ESP32 | [Lección 11](https://ernestosifuentes.github.io/topicos-ie/Semana_11/Leccion_11.html) |
+| 12 | Proyecto 2: monitor de aceleración con supervisión local/IoT | [Lección 12](https://ernestosifuentes.github.io/topicos-ie/Semana_12/Leccion_12.html) |
 
 ### Unidad III. Modelado y control de sistemas embebidos (semanas 13–16)
 
 | Semana | Tema | Acceso |
 |:--:|---|---|
-| 13 | Fundamentos de control automático y TCLab | [Lección 13](Semana_13/Leccion_13.html) |
-| 14 | Modelado dinámico e identificación FOPDT | [Lección 14](Semana_14/Leccion_14.html) |
-| 15 | Controladores P, PI y PID discretos | [Lección 15](Semana_15/Leccion_15.html) |
-| 16 | Proyecto 3: control térmico con TCLab | [Lección 16](Semana_16/Leccion_16.html) |
+| 13 | Fundamentos de control automático y TCLab | [Lección 13](https://ernestosifuentes.github.io/topicos-ie/Semana_13/Leccion_13.html) |
+| 14 | Modelado dinámico e identificación FOPDT | [Lección 14](https://ernestosifuentes.github.io/topicos-ie/Semana_14/Leccion_14.html) |
+| 15 | Controladores P, PI y PID discretos | [Lección 15](https://ernestosifuentes.github.io/topicos-ie/Semana_15/Leccion_15.html) |
+| 16 | Proyecto 3: control térmico con TCLab | [Lección 16](https://ernestosifuentes.github.io/topicos-ie/Semana_16/Leccion_16.html) |
 
 ## Recursos disponibles
 
