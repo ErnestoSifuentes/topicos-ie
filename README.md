@@ -120,8 +120,6 @@ Los nombres detallados de archivos y subcarpetas pueden variar por semana. Se re
 
 ## Publicación y mantenimiento
 
-El repositorio se publica mediante **GitHub Pages**, desde la rama `main` y la carpeta raíz (`/(root)`). El archivo `index.html` es la puerta de entrada. Las modificaciones al curso deben probarse antes de compartirse con los estudiantes: navegación, enlaces, descargas, simuladores y visualización en dispositivos móviles.
-
 **Repositorio:** https://github.com/ErnestoSifuentes/topicos-ie  
 **Sitio público:** https://ernestosifuentes.github.io/topicos-ie/
 
