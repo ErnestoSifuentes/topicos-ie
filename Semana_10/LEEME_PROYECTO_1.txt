@@ -1,0 +1,18 @@
+INTERFAZ-IA | Semana 10 | Proyecto 1 | TMP36 con ESP32 y Python
+
+1. Abra Leccion_10.html para estudiar el diseño.
+2. Consulte la guía PDF y presentación original (LM35/LabVIEW) como antecedentes.
+3. Revise cuidadosamente el esquema, el pinout del TMP36 según encapsulado y mediciones de referencia.
+4. SOLO conecte LEDs (GPIO22/23) con resistencias de 330 ohm. NO use cargas de red.
+5. Cargue Proyecto1_TMP36_ESP32.ino en la tarjeta ESP32 clásica y compruebe el protocolo serial a 115200 bps.
+6. Instale Python 3: pip install -r requirements.txt
+7. Ejecute: python proyecto1_termostato_tmp36.py
+8. Primero seleccione SIMULACION y verifique los estados. Después USB y el puerto correspondiente.
+9. Configure límites inferior/superior e histéresis; marque habilitación de LEDs solo cuando el montaje esté validado.
+10. Use Conectar / Adquirir / Procesar / Guardar / Salir. La columna modo del CSV distingue simulación de USB.
+11. Ejecute python comprobar_modelo.py para verificar la matemática nominal.
+12. El objetivo de resolución 0.05 °C NO equivale a exactitud de 0.05 °C y debe validarse experimentalmente.
+
+Modelo: Vs = 0.5 + 0.01*T; Vo = 2.49*(Vs-0.5); T = (Vo/G+Vref_resta-Voff_sensor)/S.
+Circuito nominal: MCP6002, resistencias emparejadas 10k/24.9k, referencia de 0.5 V mediante 56k y 10k con buffer.
+El usuario debe medir voltajes reales y revisar el rango ADC antes de conectar el ESP32.

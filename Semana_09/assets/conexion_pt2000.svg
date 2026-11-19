@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 635" role="img" aria-label="PRÁCTICA 3 · Pt2000 → puente de Wheatstone → AI → ADC ESP32 → Python">
+<style>.w{fill:none;stroke:#1e3445;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}.n{fill:#1e3445}.lab{font:17px Arial,sans-serif;fill:#223b4a}.small{font:14px Arial,sans-serif;fill:#576e79}.sig{font:bold 18px Arial,sans-serif;fill:#06678b}.tit{font:bold 21px Arial,sans-serif;fill:#1b3242}.box{fill:#f6fafb;stroke:#adcad2;stroke-width:1.4}.cyan{fill:#dceff3;stroke:#3a8396;stroke-width:1.6}.note{fill:#fff;stroke:#d8e4e9}</style>
+<rect width="1280" height="635" fill="#fff"/>
+<text class="tit" x="22" y="31">PRÁCTICA 3 · Pt2000 → puente de Wheatstone → AI → ADC ESP32 → Python</text>
+<text class="sig" x="45" y="85">Puente equilibrado a Tmin</text>
+<text class="sig" x="600" y="85">Amplificador de instrumentación</text>
+<text class="sig" x="315" y="120" text-anchor="middle">+3.3 V</text>
+<circle class="w" cx="315" cy="135" r="5" fill="#fff"/>
+<line class="w" x1="315" y1="141" x2="315" y2="157"/>
+<line class="w" x1="315" y1="157" x2="229" y2="250"/>
+<line class="w" x1="315" y1="157" x2="402" y2="250"/>
+<line class="w" x1="229" y1="250" x2="315" y2="345"/>
+<line class="w" x1="402" y1="250" x2="315" y2="345"/>
+<line class="w" x1="315" y1="345" x2="315" y2="362"/>
+<line class="w" x1="315" y1="362" x2="315" y2="371"/>
+<line class="w" x1="300" y1="372" x2="330" y2="372"/>
+<line class="w" x1="305" y1="378" x2="325" y2="378"/>
+<line class="w" x1="310" y1="383" x2="320" y2="383"/>
+<g transform="translate(274,203) rotate(-47)"><rect x="-30" y="-10" width="60" height="20" fill="white" stroke="#1e3445" stroke-width="2.4"/></g>
+<text class="small" x="170" y="195">R1 = 15 kΩ</text>
+<g transform="translate(276,298) rotate(47)"><rect x="-30" y="-10" width="60" height="20" fill="white" stroke="#1e3445" stroke-width="2.4"/></g>
+<text class="small" x="172" y="320">R2 ≈ Rmin</text>
+<g transform="translate(359,203) rotate(47)"><rect x="-30" y="-10" width="60" height="20" fill="white" stroke="#1e3445" stroke-width="2.4"/></g>
+<text class="small" x="384" y="195">R3 = 15 kΩ</text>
+<g transform="translate(359,298) rotate(-47)"><rect x="-30" y="-10" width="60" height="20" fill="white" stroke="#1e3445" stroke-width="2.4"/></g>
+<text class="small" x="384" y="320">Pt2000 R(T)</text>
+<circle class="n" cx="229" cy="250" r="4.1"/>
+<circle class="n" cx="402" cy="250" r="4.1"/>
+<text class="sig" x="405" y="238">V+ = Vs</text>
+<text class="sig" x="50" y="235">V− = Vref</text>
+<path class="w" d="M 229 250 L 204 250 L 204 457 L 598 457 L 598 301 L 659 301"/>
+<path class="w" d="M 402 250 L 542 250 L 542 268 L 659 268"/>
+<rect class="cyan" x="659" y="215" width="205" height="146" rx="8"/>
+<text class="sig" x="681" y="244">AI · 3.3 V</text>
+<text class="sig" x="680" y="282">+</text>
+<text class="sig" x="680" y="314">−</text>
+<text class="lab" x="738" y="291">G ≈ 19</text>
+<text class="small" x="680" y="343">REF ← 0.20 V</text>
+<line class="w" x1="738" y1="361" x2="738" y2="422"/>
+<circle class="w" cx="738" cy="428" r="5" fill="#fff"/>
+<text class="small" x="759" y="433">Vbias ajustable</text>
+<text class="small" x="680" y="471">RG según ficha del AI</text>
+<line class="w" x1="864" y1="290" x2="923" y2="290"/>
+<text class="sig" x="886" y="273">Vo</text>
+<line class="w" x1="923" y1="290" x2="932" y2="290"/>
+<path class="w" d="M932 290 L939.875 282 L947.75 298 L955.625 282 L963.5 298 L971.375 282 L979.25 298 L987.125 282 L995 290"/>
+<line class="w" x1="995" y1="290" x2="1004" y2="290"/>
+<text class="small" x="963.5" y="274" text-anchor="middle">Rf</text>
+<circle class="n" cx="1025" cy="290" r="4.1"/>
+<line class="w" x1="1004" y1="290" x2="1080" y2="290"/>
+<line class="w" x1="1025" y1="290" x2="1025" y2="346"/>
+<path class="w" d="M1012 346 H1038 M1012 357 H1038"/>
+<line class="w" x1="1025" y1="357" x2="1025" y2="375"/>
+<line class="w" x1="1025" y1="375" x2="1025" y2="384"/>
+<line class="w" x1="1010" y1="385" x2="1040" y2="385"/>
+<line class="w" x1="1015" y1="391" x2="1035" y2="391"/>
+<line class="w" x1="1020" y1="396" x2="1030" y2="396"/>
+<text class="small" x="1042" y="349">Cf</text>
+<rect class="cyan" x="1080" y="224" width="173" height="180" rx="8"/>
+<text class="sig" x="1165" y="255" text-anchor="middle">ESP32</text>
+<text class="lab" x="1165" y="286" text-anchor="middle">ADC1 GPIO36</text>
+<text class="small" x="1165" y="317" text-anchor="middle">0–3.3 V máx.</text>
+<text class="lab" x="1165" y="358" text-anchor="middle">USB → Python</text>
+<rect class="note" x="23" y="502" width="1225" height="106" rx="8"/>
+<text class="small" x="45" y="529">Condición de equilibrio: R1/R2 = R3/R(Tmin). Ejemplo: R1 = R3 = 15 kΩ; R2 ≈ R(Tmin).</text>
+<text class="small" x="45" y="553">Ambas ramas mantienen corriente cercana a 190 µA (no usar R1 = R2 = R3 = Rmin a 3.3 V).</text>
+<text class="small" x="45" y="580">Verificar con la ficha técnica del AI: rango de modo común, salida, alimentación y cálculo de RG.</text>
+</svg>

@@ -1,0 +1,13 @@
+INTERFAZ-IA · Semana 8
+Práctica 2: Termómetro Pt2000 divisor
+1. Leer guía PDF adaptada y el PDF original solo como antecedente docente.
+2. Simular y calcular corriente máxima, margen de ADC, ganancias.
+3. Montar sin conectar el ADC y medir los nodos con DMM.
+4. Tras comprobar 0 < Vo < 3.1 V conectar GPIO36.
+5. Cargar ESP32_Pt2000_ADC.ino en Arduino IDE (placa ESP32 DOIT DevKit V1).
+6. Instalar requirements.txt, ejecutar termometro_pt2000.py, seleccionar el modo correcto.
+7. Comenzar en SIMULACION y después USB; registrar N muestras y exportar CSV.
+8. En la interfaz introducir los VALORES MEDIDOS de resistencias, VCC y Vbias.
+9. Validar el resultado contra termómetro patrón, comparar errores y repetir.
+En ninguna condición alimentar directamente GPIO36 con 5 V ni voltajes negativos.
+Los 12 bits nominales NO garantizan la resolución térmica solicitada.

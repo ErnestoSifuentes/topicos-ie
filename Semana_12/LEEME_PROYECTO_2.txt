@@ -1,0 +1,27 @@
+INTERFAZ-IA · SEMANA 12 · PROYECTO 2 · ADXL335/ESP32/PYTHON
+
+1. Revise el PDF original y la lección interactiva.
+2. Conecte ADXL335/GY-61 en una placa ESP32 clásica de 3.3 V, comparta GND:
+   Vx -> GPIO39 / ADC1 CH3
+   Vy -> GPIO34 / ADC1 CH6
+   Vz -> GPIO35 / ADC1 CH7
+   Verifique el pin de ALIMENTACION de su placa GY-61: puede haber versiones con regulador y sin él.
+   No conecte salidas analógicas que excedan los límites permitidos del ADC del ESP32.
+3. Cargue ESP32_ADXL335_Serial_250Hz.ino en Arduino IDE, 115200 baudios.
+4. Cierre el monitor serial antes de abrir Python. Instale las dependencias con requirements.txt.
+5. Inicie monitor_adxl335_python.py y seleccione SIMULACIÓN para ensayar sin la placa.
+6. Con la placa conectada, elija el puerto, pulse Conectar y después Adquirir.
+7. Mida sensibilidad/offset. 'Calibrar cero dinámico' elimina la gravedad constante para análisis RMS AC,
+   NO equivale a una calibración de aceleración absoluta con referencias ±1 g.
+8. Procesar calcula media, RMS total y RMS AC. Guardar escribe CSV con fuente SIMULADO o MEDIDO.
+9. Para Arduino Cloud cree una Thing con variables ax_g, ay_g, az_g, vib_rms_g y alarma_vibracion;
+   copie ADXL335_Arduino_Cloud_Base.ino y utilice thingProperties.h generado por Arduino Cloud.
+   Es una plantilla que necesita configuración personal de dispositivo y Wi-Fi; no hay credenciales aquí.
+10. Adjunte fotos, tabla de pruebas, comparación local/nube, alarmas, pérdidas de comunicación y discusión.
+
+AVISOS:
+- ADC ESP32: lectura nominal de 12 bits; calibrar con la placa física.
+- Tres entradas son convertidas una después de otra, NO en paralelo ni simultáneamente.
+- 250 Hz es tasa objetivo de firmware; medir tasa efectiva y jitter. Los capacitores del módulo determinan BW.
+- No inferir frecuencia de falla de maquinaria o cumplimiento ISO 20816 sin montaje y análisis idóneos.
+- No controlar equipos peligrosos; para demostraciones usar actuadores/LED de baja tensión.
