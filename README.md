@@ -127,8 +127,6 @@ El repositorio se publica mediante **GitHub Pages**, desde la rama `main` y la c
 
 ## Licenciamiento y derechos de terceros
 
-El repositorio utiliza el mismo criterio dual de licencias empleado para el curso de Electrónica II:
-
 - **Contenido educativo original** creado por el titular de los derechos para este proyecto (redacción propia, explicaciones, figuras y materiales originales, cuando corresponda): [Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)](LICENSE.md).
 - **Software original** cuyos derechos correspondan al titular del proyecto (scripts Python, código de microcontroladores y otros componentes propios identificables): [Apache License, Version 2.0](LICENSE-APACHE-2.0.txt).
 - **Materiales de terceros**, como documentos fuente, presentaciones, fotografías, videos, bibliotecas o archivos incorporados con derechos ajenos: **no quedan relicenciados** por estos documentos; se aplican sus propios avisos, autorizaciones y condiciones.
