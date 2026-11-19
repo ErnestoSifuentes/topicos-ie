@@ -1,0 +1,16 @@
+SEMANA 5 — ADQUISICIÓN ESP32 A PYTHON
+
+1. Instale Arduino IDE y el soporte para su placa ESP32.
+2. Con la placa desconectada y sin alimentación externa, conecte un potenciómetro de 10 kΩ:
+   un extremo a 3V3, otro a GND y el cursor a GPIO36 (ESP32 clásico).
+3. Compruebe las conexiones. No aplicar jamás 5 V ni tensiones de red a GPIO36.
+4. Suba ESP32_ADC_Serial_Semana05.ino. Seleccione el puerto correcto.
+5. Cierre el Monitor Serial de Arduino IDE (el puerto no puede abrirse dos veces).
+6. Abra una terminal en esta carpeta e instale: python -m pip install -r requirements.txt
+7. Ejecute: python adquisicion_esp32_gui.py
+8. Primero pruebe «Simulación local» sin hardware; después conecte el puerto USB del ESP32.
+9. Gire el potenciómetro, observe la gráfica y guarde el archivo CSV.
+10. En caso de placa ESP32-S3 u otra variante, NO suponga equivalencia de GPIO36; revise el pin ADC del modelo.
+
+El cálculo V ≈ 3.3·ADC/4095 es una aproximación ideal, no una calibración.
+El script no controla cargas, calentadores ni actuadores.

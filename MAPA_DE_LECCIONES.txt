@@ -1,0 +1,13 @@
+INTERFAZ-IA · Tópicos de Ingeniería Eléctrica II
+Unidad I: semanas 1–10 · Sensor, ADC, Python, cadena de señal, Pt2000, Proyecto 1 TMP36.
+Unidad II: semanas 11–12 · Supervisión industrial: fundamentos SCADA e IoT con ESP32.
+Unidad III: semanas 13–16 · Control en sistemas embebidos (a desarrollar).
+
+Semana 2 contiene 2A y 2B.
+Semana 10: Semana_10/Leccion_10.html · Proyecto 1 TMP36 y Python.
+Semana 11: Semana_11/Leccion_11.html · Arquitectura SCADA, Wi-Fi, ejercicios 1–9 y Arduino Cloud.
+Semana 12: Semana_12/Leccion_12.html · Proyecto 2 ADXL335, ESP32 y Python, supervisión IoT.
+
+En ambas lecciones nuevas se incluyen documentos originales sin modificar, videos y guías adaptadas.
+Los códigos originales del ejercicio se preservan, distinguiéndolos de los sketches adaptados.
+Descomprima el ZIP y abra INTERFAZ-IA_Inicio_Topicos_IE_II.html.

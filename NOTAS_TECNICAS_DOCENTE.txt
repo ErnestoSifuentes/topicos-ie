@@ -1,0 +1,15 @@
+INTERFAZ-IA · Notas técnicas para el profesor — Semanas 3-5
+
+Fuentes utilizadas: Lección 3 Microcontrolador ESP32 (36 páginas), Actividades L3 GPIO (11 páginas), Actividades L3 ADC (32 páginas), entregadas por el profesor.
+
+Se conservaron la secuencia de programación GPIO, periodos de 250/500/1000/2000 ms, medición de corriente, ADC GPIO36, 7 actividades ADC y su finalidad experimental.
+
+Revisión 1: la tabla de actividades GPIO especifica periodo TOTAL de 250 ms, pero el ejemplo de código presenta 250 ms como SEMIPERIODO y, por tanto, genera T=500 ms. Los programas nuevos utilizan 125 ms para T=250 ms y explican T=2*T_HALF_MS.
+Revisión 2: para el ESP32 clásico, Arduino-ESP32 documenta ADC_11db con margen util aproximadamente 150 a 3100 mV. El límite de protección del pin (no exceder 3.3V) no implica rango metrológico lineal de 0 a 3.3V. Los programas ilustran analogReadMilliVolts y comparacion DMM; los voltajes cerca del límite no deben utilizarse como unica referencia para calibrar.
+Revisión 3: la actividad RMS de la fuente calcula RMS TOTAL sobre señal con offset. Se ofrece tambien RMS de componente alterna mediante resta de media, para evitar equiparar ambos valores.
+Revisión 4: no se implementa el montaje de red eléctrica TRIAC/lámpara 60W como práctica introductoria; solamente LED a baja tensión.
+Revisión 5: el código de la Semana 5 se trasladó de la anterior Semana 3 y se utiliza GPIO36, acorde con el montaje de Semana 4.
+Revisión 6: semanalmente hay 4h lectivas. Las 7 actividades ADC no caben en su totalidad en dos clases, por lo que las actividades 5-7 quedan disponibles como ampliación y proyecto.
+
+Referencias técnicas: https://docs.espressif.com/projects/arduino-esp32/en/latest/api/adc.html
+Verificar instalación del core Arduino-ESP32 en cada laboratorio y probar firmware físicamente antes de desplegar con estudiantes.

@@ -1,0 +1,24 @@
+INTERFAZ-IA · Unidad III · Semanas 13–16
+
+Instalación en Windows (Python 3.10+):
+  py -m pip install -r requirements.txt
+  py test_tclab_core.py
+  py semana13_lazo_abierto.py --modo simulado
+  py semana14_identificacion.py semana13_respuesta_escalon.csv
+  py semana15_pid_discreto.py
+  py semana16_interfaz_tclab.py
+
+Hardware: instale firmware TCLab compatible con el módulo Python tclab,
+alimentación DC adecuada y conecte USB. En la GUI, seleccione MODO REAL SOLO
+si el módulo TCLab estándar fue detectado y validado. El control corre en el PC.
+Se usan Q1,T1 y Q2 como perturbación opcional. No se recomienda dejarlo sin
+supervisión. Limite la temperatura del laboratorio según protocolo local.
+
+Seguridad: no realizar conexión a red eléctrica, no cubrir las resistencias
+calefactoras, mantener supervisión continua. La aplicación manda Q1=Q2=0 al
+detener o cerrar en circunstancias normales, pero el corte físico de energía
+es la medida segura ante una falla de comunicación.
+
+Los datos simulados deben etiquetarse como simulados, nunca como mediciones.
+Referencias: https://tclab.readthedocs.io/en/latest/
+https://apmonitor.com/pdc/
