@@ -104,7 +104,6 @@ Las actividades del curso pueden incluir consignas para consultar un asistente d
 ```text
 topicos-ie/
 ├── index.html
-├── INTERFAZ-IA_Inicio_Topicos_IE_II.html
 ├── INTERFAZ-IA_Calendario_16_Semanas.csv
 ├── Semana_01/ ... Semana_16/
 │   ├── Leccion_XX.html
